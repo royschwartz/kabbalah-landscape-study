@@ -2,7 +2,7 @@
 
 [Play on your phone](https://royschwartz.github.io/kabbalah-landscape-study/)
 
-Read the introduction one line at a time. Walk toward the nearby settlement and enter through its southern gate. Beg, Work, Prayer and Leave each take a day. After three working days, meet your first teacher. Dialogue and the first lesson cost no additional days.
+Read the introduction one line at a time. Walk toward the nearby settlement and enter through its southern gate. SITZIL offers Partake, Offer to work, Ask and Leave. Partake is available once. Ask about Malkuth, the land and teachings; answers go into the Journal and used questions disappear. Asking takes no time; other actions take one day. Work includes food, a bed and two coins. After three working days, meet your first teacher. Prayer becomes available after the lesson.
 
 Turn with the arrows or drag the view sideways and release for any angle. Walk freely and sidestep with the on-screen controls. Tap forward for one stride or hold it to keep walking. Each move waits for its dissolve. Successful outdoor moves and turns advance five minutes. Look up reveals the higher sky; turn toward the displayed sun direction, then Look ahead or walk to lower your gaze. The sun, clouds and shadows change with time; unlit night is completely dark. Use Light torch (or T), or stay near settlement lamps. Wait one hour advances time without walking. At night, Camp until morning rests in place until 07:00 and puts out your torch. Camping provides rest but no food. Progress, time and torch state save locally on your device; Start again returns to the introduction.
 
