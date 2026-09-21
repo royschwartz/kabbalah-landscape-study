@@ -16,7 +16,7 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "151de8c37c61ff6da76454fecec48514b01923bf559a5e49ccb4f9f1b47b8c78"
+      "sha256": "7044154f0c94d554716cb5727e0ad556011af8f497adaeaa88ae3dabe9c0eb3c"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
@@ -24,7 +24,7 @@
     },
     {
       "path": "demo/lib/models/reference-volumes.json",
-      "sha256": "c09c242e2444eba0573a117869da8588c52d13f77c99d821ce5a7221e1758573"
+      "sha256": "81a308f5cef0cbe37237ba9a3b9009c8304a7a2e4697c8c8a046842402e865a1"
     },
     {
       "path": "demo/lib/models/red-figure.json",
@@ -32,11 +32,11 @@
     },
     {
       "path": "demo/lib/models/rounded-hut.json",
-      "sha256": "6e718840c78a1365383c78b98eaa1a66c02cf0de5166594ce5535956d1764718"
+      "sha256": "194cee00c8cb02bf499b1a21bb4e097dd2e4c91aad7f4e4bd32fa433618e4c6f"
     },
     {
       "path": "demo/lib/world.ts",
-      "sha256": "5b14e27fee1c932e489f615dce4c341c1cb84d8645c5d6983fc6a97d3cbc750d"
+      "sha256": "bf27e7fe5c30dc60fbfed731e293c1169f9641a53a2c49e72e2b08a2d0e59b92"
     }
   ],
   "assets": [
@@ -57,55 +57,55 @@
       "name": "rounded-hut",
       "file": "rounded-hut.obj",
       "materialFile": "rounded-hut.mtl",
-      "vertices": 508,
-      "triangles": 514,
-      "runtimeTriangles": 514,
+      "vertices": 111,
+      "triangles": 204,
+      "runtimeTriangles": 204,
       "groups": [
         "hut"
       ],
-      "note": "Roy standard hut; editable twelve-sided shell with attached broken courses and doorway; base at origin.",
-      "sha256": "bd6815313e46853183d4457454fdd9352ae4cb10851602a80a283ee507dcea18"
+      "note": "Roy standard hut; editable twelve-sided shell with a small doorway and no decorative streaks; base at origin.",
+      "sha256": "b9ab18b9028488ccaecf1384819e241c7763dc653c9ff9b0bd07833de3048a4f"
     },
     {
       "name": "fence-section",
       "file": "fence-section.obj",
       "materialFile": "fence-section.mtl",
-      "vertices": 1018,
-      "triangles": 1428,
-      "runtimeTriangles": 1484,
+      "vertices": 722,
+      "triangles": 1188,
+      "runtimeTriangles": 1188,
       "groups": [
         "logs-and-rails"
       ],
       "note": "Roy revised fence; separate solid front logs and rear rails; open entrance; actual world coordinates.",
-      "sha256": "9c3f32403eb673ace0ca0e1bb357be0e2ec367b90db127ec0d2f960ad1a85c25"
+      "sha256": "bfd3443ac06448df010a469e9ade3fdc65e85dc3172abfdca30e841cf347a4cb"
     },
     {
       "name": "smoking-settlement",
       "file": "smoking-settlement.obj",
       "materialFile": "smoking-settlement.mtl",
-      "vertices": 25155,
-      "triangles": 43349,
-      "runtimeTriangles": 45622,
+      "vertices": 18624,
+      "triangles": 35532,
+      "runtimeTriangles": 37162,
       "groups": [
         "nearby-hut",
         "city",
         "smoke-state-00"
       ],
-      "note": "Complete rendered settlement including hut, ten city huts, chimney house, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
-      "sha256": "76512413a983597da7caeffd3fd0c3669119918d9fe8ab09d2977d843e46ef25"
+      "note": "Complete rendered settlement including hut, eleven city huts including the chimney hut, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
+      "sha256": "d9d4d2139db14fbe499c8b0544fd42cc34bb6efdb08995f078a68376f7c2a50a"
     },
     {
       "name": "smoke-state-00",
       "file": "smoke-state-00.obj",
       "materialFile": "smoke-state-00.mtl",
-      "vertices": 17329,
-      "triangles": 32811,
-      "runtimeTriangles": 34816,
+      "vertices": 13719,
+      "triangles": 27222,
+      "runtimeTriangles": 28852,
       "groups": [
         "smoke-state-00"
       ],
       "note": "One settled state of the procedural volumetric smoke. The game regenerates the other states; no idle animation.",
-      "sha256": "1af7bdde38a43e569b26b7ea654af8f5df77f8ec4595e9d2825368935689544e"
+      "sha256": "55980966724ae5c9472c062942cab7f475b31fd1f58df6db42590b5c56bf3129"
     }
   ]
 }
