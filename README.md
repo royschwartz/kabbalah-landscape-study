@@ -1,4 +1,4 @@
-# Kabbalah — the first settlement
+# Kabbalah — Gevurah
 
 [Play on your phone](https://royschwartz.github.io/kabbalah-landscape-study/)
 
@@ -6,6 +6,6 @@ Read the introduction one line at a time. Walk toward the nearby settlement and 
 
 Turn with the arrows. Tap forward for one step or hold it to keep walking. Each move waits for its dissolve. Progress is saved locally on your device; Start again returns to the introduction.
 
-This short prototype ends after the teacher’s first lesson. It does not yet include Malkuth or the wider puzzle network.
+After the first lesson, choose Prayer and enter Malkuth. The Gevurah door leads to your saved checkpoint. Weaken the sources beside the two fields and reach the first checkpoint to learn to weaken two sources at once. Re-entering the door returns there; reloading resumes your exact position. Other sectors and later checkpoints are not built.
 
 [Optional phone performance test](https://royschwartz.github.io/kabbalah-landscape-study/?performance=1). This repository contains only the public playable build.
