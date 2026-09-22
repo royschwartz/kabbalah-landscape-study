@@ -16,11 +16,11 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "97549d9c8fb06b83c26c4d1cdaa5aa34d32f6994f553770112054c455b3833c8"
+      "sha256": "cd9916103fdda7f55e64c0fde7f764fc9868c5b23bbcd9591d8b273bd7d4698e"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
-      "sha256": "effbd5b08d85a3b447804f2d4825b4f21e45c64849c71839b8d27fc6b81121c7"
+      "sha256": "5b2cfc981ece01dec35776a0cc2e5fa6d0b6919ab11aa135c900d5d8bf1e68f9"
     },
     {
       "path": "demo/lib/models/reference-volumes.json",
@@ -36,7 +36,7 @@
     },
     {
       "path": "demo/lib/world.ts",
-      "sha256": "52240f37ae5490b7cbea077e4ca940f0bd86324fa14247d17b45a0aaac5cf292"
+      "sha256": "d1a50c0bf9525aa91d87339c42bad928cf5e79419bb88b134aa1383e14afc43d"
     },
     {
       "path": "demo/lib/smoke-physics.ts",
@@ -45,6 +45,10 @@
     {
       "path": "demo/lib/smoke-simulation.json",
       "sha256": "6845ac4a1eb383a2b6d0265033e792b50bafff4fe44bd970d21e532ce7c2306c"
+    },
+    {
+      "path": "demo/lib/fire-colors.ts",
+      "sha256": "f896d6e47de8ed0a0979328f1808edc35f8427cb7e3e0d0fe2975d65bfe4f994"
     }
   ],
   "assets": [
@@ -91,16 +95,31 @@
       "name": "smoking-settlement",
       "file": "smoking-settlement.obj",
       "materialFile": "smoking-settlement.mtl",
-      "vertices": 30507,
-      "triangles": 56198,
-      "runtimeTriangles": 57934,
+      "vertices": 33620,
+      "triangles": 61986,
+      "runtimeTriangles": 64362,
       "groups": [
         "nearby-hut",
         "city",
-        "smoke-state-00"
+        "smoke-state-00",
+        "fire-state-00"
       ],
-      "note": "Complete rendered settlement including hut, eleven city huts including the chimney hut, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
-      "sha256": "2234f81bae38dac3f192c6a5c7dd4c8192b5837acbbf31d732731f80d24b43be"
+      "note": "Complete rendered settlement including hut, eleven city huts, the grey hearth of the town fire, enclosing fence, smoke state zero and flame state zero. Actual world coordinates and terrain contact.",
+      "sha256": "d9e0c2e721b9b5098c562128a192c840e3d8c04af908c04fb3026ad4360c67c2"
+    },
+    {
+      "name": "town-fire",
+      "file": "town-fire.obj",
+      "materialFile": "town-fire.mtl",
+      "vertices": 3121,
+      "triangles": 5800,
+      "runtimeTriangles": 6440,
+      "groups": [
+        "hearth",
+        "flames-state-00"
+      ],
+      "note": "Roy town-fire drawing at the centre of the town: scalloped grey hearth, maroon and orange tongues, blue cores and black strokes. Flames change with each settled view; state zero shown. Hidden sides are reconstructed. Actual world coordinates.",
+      "sha256": "e5e985405e2c94140374be8e6eed5ce9a46484c191456a7e1033174c72a200db"
     },
     {
       "name": "smoke-state-00",
@@ -113,7 +132,7 @@
         "smoke-state-00"
       ],
       "note": "First of 192 baked gentle physics-informed smoke states, drawn as irregular solid contours. The game displays consecutive states on settled actions; no idle animation.",
-      "sha256": "b668d186897809f8d6f3d19a4244e5aa6abf52303c196c4826df14365bf2f9e4"
+      "sha256": "c14f632478d9ba1c2cad2b8fa7bf8a62de87b140f584499db23dea9f4aef32cf"
     }
   ]
 }

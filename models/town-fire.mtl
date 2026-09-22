@@ -1,31 +1,7 @@
-# Base ink #000000
-newmtl pigment_ff000000
-Ka 0 0 0
-Kd 0 0 0
-Ks 0 0 0
-d 1
-illum 1
-
-# Base ink #ffffff
-newmtl pigment_ffffffff
-Ka 1 1 1
-Kd 1 1 1
-Ks 0 0 0
-d 1
-illum 1
-
 # Base ink #757575
 newmtl pigment_ff757575
 Ka 0.458824 0.458824 0.458824
 Kd 0.458824 0.458824 0.458824
-Ks 0 0 0
-d 1
-illum 1
-
-# Base ink #808080
-newmtl pigment_ff808080
-Ka 0.501961 0.501961 0.501961
-Kd 0.501961 0.501961 0.501961
 Ks 0 0 0
 d 1
 illum 1
@@ -50,6 +26,14 @@ illum 1
 newmtl pigment_fff9002b
 Ka 0.168627 0 0.976471
 Kd 0.168627 0 0.976471
+Ks 0 0 0
+d 1
+illum 1
+
+# Base ink #000000
+newmtl pigment_ff000000
+Ka 0 0 0
+Kd 0 0 0
 Ks 0 0 0
 d 1
 illum 1
