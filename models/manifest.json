@@ -16,11 +16,11 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "36ad4ddd42d2dd65497f848ef03f4324919604300c3740470b322767325365c9"
+      "sha256": "44dddc0a6807014a27d231c4c3eea3d542298bad4784f7f34bd0dedb25ba0f2f"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
-      "sha256": "94c5c0a2c3c73c962e3953f81691c858ceb92bfa0a1f7dcb20905a4a84243133"
+      "sha256": "6c3089e603fca80db99e9ccc3e62fa5939d82e0b93a2876a6bfb876a208ec398"
     },
     {
       "path": "demo/lib/models/reference-volumes.json",
@@ -37,6 +37,14 @@
     {
       "path": "demo/lib/world.ts",
       "sha256": "52240f37ae5490b7cbea077e4ca940f0bd86324fa14247d17b45a0aaac5cf292"
+    },
+    {
+      "path": "demo/lib/smoke-physics.ts",
+      "sha256": "e0397de42ad482e0f8ce520abc229cc577844ab8283c423afb25fca2d873ae69"
+    },
+    {
+      "path": "demo/lib/smoke-simulation.json",
+      "sha256": "512f774adf69cf596edd273a7ba5c3c211e2d0476d85b4f37178d22559a69d5a"
     }
   ],
   "assets": [
@@ -83,29 +91,29 @@
       "name": "smoking-settlement",
       "file": "smoking-settlement.obj",
       "materialFile": "smoking-settlement.mtl",
-      "vertices": 15135,
-      "triangles": 28130,
-      "runtimeTriangles": 28490,
+      "vertices": 16684,
+      "triangles": 30950,
+      "runtimeTriangles": 31432,
       "groups": [
         "nearby-hut",
         "city",
         "smoke-state-00"
       ],
       "note": "Complete rendered settlement including hut, eleven city huts including the chimney hut, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
-      "sha256": "fb2bcf1c798d1143a004a67f29aae1b71b5dba9ac2ed643106ec966eb6c16e54"
+      "sha256": "2b3e2299c21066698d36ebf06b3fbaabb3d9cdb6860edccdd09f741c53376f36"
     },
     {
       "name": "smoke-state-00",
       "file": "smoke-state-00.obj",
       "materialFile": "smoke-state-00.mtl",
-      "vertices": 10230,
-      "triangles": 19820,
-      "runtimeTriangles": 20180,
+      "vertices": 11779,
+      "triangles": 22640,
+      "runtimeTriangles": 23122,
       "groups": [
         "smoke-state-00"
       ],
-      "note": "One settled state of the procedural volumetric smoke. The game regenerates the other states; no idle animation.",
-      "sha256": "4bbc7cee34984d0e52acea9aedf343886b89511c0b7c3bbad085a68879f39e68"
+      "note": "First of 96 baked physics-informed smoke states, drawn as irregular solid contours. The game displays consecutive states on settled actions; no idle animation.",
+      "sha256": "04379aaec816372f5bc80614abdae95569fdfe54447c464b231c9bb577a36110"
     }
   ]
 }
