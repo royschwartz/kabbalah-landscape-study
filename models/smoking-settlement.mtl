@@ -14,10 +14,10 @@ Ks 0 0 0
 d 1
 illum 1
 
-# Base ink #3b2826
-newmtl pigment_ff26283b
-Ka 0.231373 0.156863 0.14902
-Kd 0.231373 0.156863 0.14902
+# Base ink #808080
+newmtl pigment_ff808080
+Ka 0.501961 0.501961 0.501961
+Kd 0.501961 0.501961 0.501961
 Ks 0 0 0
 d 1
 illum 1

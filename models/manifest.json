@@ -16,11 +16,11 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "7044154f0c94d554716cb5727e0ad556011af8f497adaeaa88ae3dabe9c0eb3c"
+      "sha256": "dc00c301361dec7313fa833f46908cd857011ba4c2d48584adacb250229e4087"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
-      "sha256": "188ce2d593b71eebc605821ce5448bb880146769d1e35106eaf46592d974ae7f"
+      "sha256": "72322c26fbecff64607b68d9ae113ed8147ef47145bc4ad3185bd052b3251fbe"
     },
     {
       "path": "demo/lib/models/reference-volumes.json",
@@ -36,7 +36,7 @@
     },
     {
       "path": "demo/lib/world.ts",
-      "sha256": "bf27e7fe5c30dc60fbfed731e293c1169f9641a53a2c49e72e2b08a2d0e59b92"
+      "sha256": "b7f73ad0b38c8778c5212dc21be1813ed4e9a8c9dff754484417cd6655556280"
     }
   ],
   "assets": [
@@ -92,7 +92,7 @@
         "smoke-state-00"
       ],
       "note": "Complete rendered settlement including hut, eleven city huts including the chimney hut, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
-      "sha256": "d9d4d2139db14fbe499c8b0544fd42cc34bb6efdb08995f078a68376f7c2a50a"
+      "sha256": "594717d9a2a024b39547034559ad7ac89cb608ee294bb96135f3fa943a834392"
     },
     {
       "name": "smoke-state-00",
@@ -105,7 +105,7 @@
         "smoke-state-00"
       ],
       "note": "One settled state of the procedural volumetric smoke. The game regenerates the other states; no idle animation.",
-      "sha256": "55980966724ae5c9472c062942cab7f475b31fd1f58df6db42590b5c56bf3129"
+      "sha256": "33bd2fecdee6fa9ebaa854a2f48a66650b1e74582c58e639e164fd7ce109182f"
     }
   ]
 }
