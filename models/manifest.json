@@ -16,11 +16,11 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "dc00c301361dec7313fa833f46908cd857011ba4c2d48584adacb250229e4087"
+      "sha256": "36ad4ddd42d2dd65497f848ef03f4324919604300c3740470b322767325365c9"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
-      "sha256": "72322c26fbecff64607b68d9ae113ed8147ef47145bc4ad3185bd052b3251fbe"
+      "sha256": "94c5c0a2c3c73c962e3953f81691c858ceb92bfa0a1f7dcb20905a4a84243133"
     },
     {
       "path": "demo/lib/models/reference-volumes.json",
@@ -36,7 +36,7 @@
     },
     {
       "path": "demo/lib/world.ts",
-      "sha256": "b7f73ad0b38c8778c5212dc21be1813ed4e9a8c9dff754484417cd6655556280"
+      "sha256": "52240f37ae5490b7cbea077e4ca940f0bd86324fa14247d17b45a0aaac5cf292"
     }
   ],
   "assets": [
@@ -83,29 +83,29 @@
       "name": "smoking-settlement",
       "file": "smoking-settlement.obj",
       "materialFile": "smoking-settlement.mtl",
-      "vertices": 18624,
-      "triangles": 35532,
-      "runtimeTriangles": 37162,
+      "vertices": 15135,
+      "triangles": 28130,
+      "runtimeTriangles": 28490,
       "groups": [
         "nearby-hut",
         "city",
         "smoke-state-00"
       ],
       "note": "Complete rendered settlement including hut, eleven city huts including the chimney hut, enclosing fence, and smoke state zero. Actual world coordinates and terrain contact.",
-      "sha256": "594717d9a2a024b39547034559ad7ac89cb608ee294bb96135f3fa943a834392"
+      "sha256": "fb2bcf1c798d1143a004a67f29aae1b71b5dba9ac2ed643106ec966eb6c16e54"
     },
     {
       "name": "smoke-state-00",
       "file": "smoke-state-00.obj",
       "materialFile": "smoke-state-00.mtl",
-      "vertices": 13719,
-      "triangles": 27222,
-      "runtimeTriangles": 28852,
+      "vertices": 10230,
+      "triangles": 19820,
+      "runtimeTriangles": 20180,
       "groups": [
         "smoke-state-00"
       ],
       "note": "One settled state of the procedural volumetric smoke. The game regenerates the other states; no idle animation.",
-      "sha256": "33bd2fecdee6fa9ebaa854a2f48a66650b1e74582c58e639e164fd7ce109182f"
+      "sha256": "4bbc7cee34984d0e52acea9aedf343886b89511c0b7c3bbad085a68879f39e68"
     }
   ]
 }
