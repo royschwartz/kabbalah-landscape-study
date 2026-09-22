@@ -1,0 +1,12 @@
+IBM VGA 8x16 — PxPlus edition
+
+Original raster character design: IBM VGA/MCGA hardware, introduced with the IBM PS/2 family in 1987.
+Font adaptation and extended character set: VileR, The Ultimate Oldschool PC Font Pack v2.2.
+Source: https://int10h.org/oldschool-pc-fonts/
+Font history: https://int10h.org/oldschool-pc-fonts/fontlist/#ibmvgamcga
+Hardware history: https://www.ibm.com/history/ps-2
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+Full license: IBM-VGA-LICENSE.txt in this directory.
+
+The font file is redistributed unchanged. Original Latin letter shapes are preserved; the Plus version adds modern Unicode coverage, including punctuation and Hebrew. The font's license applies to the font, not to the game's unrelated code or assets.
