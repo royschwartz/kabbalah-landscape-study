@@ -1,0 +1,18 @@
+Atari ST lettering — Project Jason Tall
+
+Selected by Roy on September 22, 2026, from the vintage font comparison.
+This is the exact unchanged ProjectJasonTall.ttf file used in that preview.
+
+Font conversion: Kreative Korp / Kreative Software.
+Historical design: Atari ST system lettering (1985 era).
+Project Jason Tall is a modern conversion, not a font file created in 1985.
+
+Source catalogue: https://www.kreativekorp.com/software/fonts/retro/
+Original download: https://www.kreativekorp.com/swdownload/fonts/retro/projason.zip
+Licence: Kreative Software Relay Fonts Free Use License, version 1.2f.
+The complete licence is preserved in ATARI-ST-LICENSE.txt.
+
+The game embeds the original font unchanged at regular CSS weight, using
+native 16px and doubled 32px text sizes. Synthetic bold and italic are disabled.
+
+SHA-256: 3b30771b1e476c4e8ac39ba11f3910b01c181593717a1288ff5a069d4d2ee914
