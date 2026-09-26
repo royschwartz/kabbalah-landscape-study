@@ -16,7 +16,7 @@
     },
     {
       "path": "demo/lib/settlements.ts",
-      "sha256": "cd9916103fdda7f55e64c0fde7f764fc9868c5b23bbcd9591d8b273bd7d4698e"
+      "sha256": "5ffd9b15564d709943598d1fa7135f753c56b1079af17d9892e9a2263b6c57cc"
     },
     {
       "path": "demo/lib/settlement-shapes.json",
@@ -36,7 +36,7 @@
     },
     {
       "path": "demo/lib/world.ts",
-      "sha256": "d1a50c0bf9525aa91d87339c42bad928cf5e79419bb88b134aa1383e14afc43d"
+      "sha256": "bfb67d2dab9dd6285cd7e1a4bf0cdf4e2429a825685e78a1e7475111e18eca24"
     },
     {
       "path": "demo/lib/smoke-physics.ts",
@@ -48,7 +48,7 @@
     },
     {
       "path": "demo/lib/fire-colors.ts",
-      "sha256": "f896d6e47de8ed0a0979328f1808edc35f8427cb7e3e0d0fe2975d65bfe4f994"
+      "sha256": "aaf95f99642b04a0f06eeac4294b1b4e52fe7f8fb9e3841b96d6e9d93f54d3b1"
     }
   ],
   "assets": [
@@ -95,9 +95,9 @@
       "name": "smoking-settlement",
       "file": "smoking-settlement.obj",
       "materialFile": "smoking-settlement.mtl",
-      "vertices": 33620,
-      "triangles": 61986,
-      "runtimeTriangles": 64362,
+      "vertices": 35069,
+      "triangles": 64834,
+      "runtimeTriangles": 67286,
       "groups": [
         "nearby-hut",
         "city",
@@ -105,7 +105,7 @@
         "fire-state-00"
       ],
       "note": "Complete rendered settlement including hut, eleven city huts, the grey hearth of the town fire, enclosing fence, smoke state zero and flame state zero. Actual world coordinates and terrain contact.",
-      "sha256": "d9e0c2e721b9b5098c562128a192c840e3d8c04af908c04fb3026ad4360c67c2"
+      "sha256": "83f714a7c5dfdaa356e121f236d25fbd31b7f47ca305f147ef6aeb653c044a7d"
     },
     {
       "name": "town-fire",
@@ -122,17 +122,31 @@
       "sha256": "e5e985405e2c94140374be8e6eed5ce9a46484c191456a7e1033174c72a200db"
     },
     {
+      "name": "gevurah-town-fire",
+      "file": "gevurah-town-fire.obj",
+      "materialFile": "gevurah-town-fire.mtl",
+      "vertices": 2478,
+      "triangles": 4571,
+      "runtimeTriangles": 4955,
+      "groups": [
+        "stones-and-logs",
+        "flames-embers-sparks-state-00"
+      ],
+      "note": "Alternative town fire (?fire=gevurah), an assistant design in Roy sefirot colours: stone ring, Yesod-brown logs, Gevurah orange tongues with Binah tips, Hod core, embers and sparks. State zero shown. Actual world coordinates.",
+      "sha256": "7fe9b2bef051d5b33bb4cb07d4f8086460e1ca97a178c9fa9139823d8c88a687"
+    },
+    {
       "name": "smoke-state-00",
       "file": "smoke-state-00.obj",
       "materialFile": "smoke-state-00.mtl",
-      "vertices": 25602,
-      "triangles": 47888,
-      "runtimeTriangles": 49624,
+      "vertices": 27051,
+      "triangles": 50736,
+      "runtimeTriangles": 52548,
       "groups": [
         "smoke-state-00"
       ],
       "note": "First of 192 baked gentle physics-informed smoke states, drawn as irregular solid contours. The game displays consecutive states on settled actions; no idle animation.",
-      "sha256": "c14f632478d9ba1c2cad2b8fa7bf8a62de87b140f584499db23dea9f4aef32cf"
+      "sha256": "9ab5dcbd5914b2d89d02b20bf6b850721de51517fa45153f32911d7cb26d592a"
     }
   ]
 }
